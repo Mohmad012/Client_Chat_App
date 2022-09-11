@@ -26,7 +26,7 @@ body {
 .joinChatContainer input {
   width: 210px;
   height: 40px;
-  margin: 7px;
+  margin: 7px auto;
   border: 2px solid #43a047;
   border-radius: 5px;
   padding: 5px;
@@ -36,7 +36,7 @@ body {
 .joinChatContainer button {
   width: 225px;
   height: 50px;
-  margin: 7px;
+  margin: 7px auto;
   border: none;
   border-radius: 5px;
   padding: 5px;
@@ -60,7 +60,7 @@ body {
 }
 .chat-window .chat-header {
   height: 45px;
-  border-radius: 6px;
+  border-radius: 6px 6px 0 0;
   background: #263238;
   position: relative;
   display: flex;

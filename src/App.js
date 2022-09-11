@@ -52,31 +52,3 @@ function App() {
 }
 
 export default App;
-
-{
-  /* <div className="box_send_recive_msg">
-<h1>{room} Room</h1>
-<div className="box_recive_msg">
-  {messageList?.map((item, key) => (
-    <div className="box_msg" key={key}>
-      <div>
-        <h2>{item.currentMessage}</h2>
-        <div>
-          <span>{item.name}</span>
-          <span>{item.date}</span>
-        </div>
-      </div>
-    </div>
-  ))}
-</div>
-<div className="box_send_msg">
-  <input
-    type="text"
-    placeholder="Say Hay....."
-    onChange={handleInputMsg}
-    value={currentMessage}
-  />
-  <button onClick={handleSendMsg}>send</button>
-</div>
-</div> */
-}
