@@ -37,7 +37,11 @@ function App() {
             placeholder="Room ID..."
             onChange={(e) => setRoom(e.target.value)}
           />
-          <button onClick={joinRoom}>Join A Room</button>
+          <button
+            onClick={joinRoom}
+            onKeyPress={(e) => e.key === "Enter" && joinRoom()}>
+            Join A Room
+          </button>
         </div>
       ) : (
         <Chat
