@@ -50,10 +50,10 @@ body {
   background: #2e7d32;
 }
 
-/* .chat-window {
-  width: 300px;
-  height: 420px;
-} */
+.chat-window {
+  width: 35vw;
+  margin: 10vh auto;
+}
 
 .chat-window p {
   margin: 0;
