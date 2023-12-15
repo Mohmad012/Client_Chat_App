@@ -40,9 +40,10 @@ function Chat({ socket, username, room, closeChat }) {
       });
     }
     enterRoom();
-  }, [socket]);
+  }, [room, socket, username]);
 
   console.log("nameLeftEnterRoom", nameLeftEnterRoom);
+  console.log("messageList", messageList);
 
   const sendMessage = async () => {
     if (currentMessage !== "" || file !== "") {
