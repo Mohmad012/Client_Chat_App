@@ -42,7 +42,7 @@ function Chat({ socket, username, room, closeChat }) {
     enterRoom();
   }, [socket]);
 
-  console.log("nameLeftEnterRoom", nameLeftEnterRoom);
+  console.log("messageData", messageData);
 
   const sendMessage = async () => {
     if (currentMessage !== "" || file !== "") {
